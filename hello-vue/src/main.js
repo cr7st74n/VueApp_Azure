@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import HelloAPI from "./Services/HelloAPI"
 
-createApp(App).mount('#app')
+let app = createApp(App)
+
+app.config.globalProperties.$hello_api = HelloAPI
+
+app.mount('#app')

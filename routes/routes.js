@@ -3,7 +3,7 @@ let router = express.Router()
 
 router.get("/", function(req,res,next){
     res.json({
-        "message": "hello !"
+        "message": "hello ITEC 2560 web programers"
     })
 })
 
