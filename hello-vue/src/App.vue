@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Hello, ITEC classmates, I am Cris"/>
+  <HelloWorld msg="Hello, ITEC classmates, I am Cris Gonzalez and I enjoy this class"/>
 </template>
 
 <script>
